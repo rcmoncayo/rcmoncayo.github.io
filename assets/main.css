@@ -1042,7 +1042,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	border-radius: 100%;
 	height: 2em;
 	width: 2em;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
 #icons03 li a svg {
@@ -1060,7 +1060,31 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #icons03 li a + svg {
-	transition: fill 0.25s ease, stroke 0.25s ease;
+	transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+}
+
+#icons03 li a:hover {
+	transform: scale(1.13);
+}
+
+#icons03 li a:hover + svg {
+	transform: scale(1.13);
+}
+
+#icons03 .n01:hover {
+	border-color: #00FFFF !important;
+}
+
+#icons03 .n01:hover svg {
+	fill: #00FFFF !important;
+}
+
+#icons03 .n02:hover {
+	border-color: #00FFFF !important;
+}
+
+#icons03 .n02:hover svg {
+	fill: #00FFFF !important;
 }
 
 #icons04 {
@@ -1080,7 +1104,7 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 	border-radius: 100%;
 	height: 2em;
 	width: 2em;
-	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
 #icons04 li a svg {
@@ -1098,7 +1122,23 @@ h1 span[style], h2 span[style], h3 span[style], p span[style], h1 strong, h2 str
 }
 
 #icons04 li a + svg {
-	transition: fill 0.25s ease, stroke 0.25s ease;
+	transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+}
+
+#icons04 li a:hover {
+	transform: scale(1.13);
+}
+
+#icons04 li a:hover + svg {
+	transform: scale(1.13);
+}
+
+#icons04 .n01:hover {
+	border-color: #00FFFF !important;
+}
+
+#icons04 .n01:hover svg {
+	fill: #00FFFF !important;
 }
 
 hr {
@@ -1131,15 +1171,15 @@ hr:before {
 	border-radius: 0px;
 }
 
-#divider24:not(:first-child) {
+#divider19:not(:first-child) {
 	margin-top: 0.625rem !important;
 }
 
-#divider24:not(:last-child) {
+#divider19:not(:last-child) {
 	margin-bottom: 0.625rem !important;
 }
 
-#divider24:before {
+#divider19:before {
 	width: 5rem;
 	background-color: #FFFFFF;
 	height: 2px;
@@ -1177,11 +1217,11 @@ hr:before {
 }
 
 #divider02:not(:first-child) {
-	margin-top: 0.625rem !important;
+	margin-top: 1.25rem !important;
 }
 
 #divider02:not(:last-child) {
-	margin-bottom: 0.625rem !important;
+	margin-bottom: 1.25rem !important;
 }
 
 #divider02:before {
@@ -1311,36 +1351,6 @@ hr:before {
 	border-radius: 0px;
 }
 
-#divider22:not(:first-child) {
-	margin-top: 0rem !important;
-}
-
-#divider22:not(:last-child) {
-	margin-bottom: 0rem !important;
-}
-
-#divider22:before {
-	width: 100%;
-	border-bottom: solid 4px #FFFFFF;
-	border-top: solid 4px #FFFFFF;
-	height: 12px;
-}
-
-#divider19:not(:first-child) {
-	margin-top: 0rem !important;
-}
-
-#divider19:not(:last-child) {
-	margin-bottom: 0rem !important;
-}
-
-#divider19:before {
-	width: 100%;
-	border-bottom: solid 4px #FFFFFF;
-	border-top: solid 4px #FFFFFF;
-	height: 12px;
-}
-
 #divider16:not(:first-child) {
 	margin-top: 0.625rem !important;
 }
@@ -1442,6 +1452,21 @@ hr:before {
 #divider26:before {
 	width: 5rem;
 	background-color: #FFFFFF;
+	height: 2px;
+	border-radius: 0px;
+}
+
+#divider08:not(:first-child) {
+	margin-top: 0.625rem !important;
+}
+
+#divider08:not(:last-child) {
+	margin-bottom: 0.625rem !important;
+}
+
+#divider08:before {
+	width: 5rem;
+	background-color: transparent;
 	height: 2px;
 	border-radius: 0px;
 }
@@ -2196,11 +2221,11 @@ hr:before {
 }
 
 #gallery07:not(:first-child) {
-	margin-top: 5rem !important;
+	margin-top: 0rem !important;
 }
 
 #gallery07:not(:last-child) {
-	margin-bottom: 5rem !important;
+	margin-bottom: 0rem !important;
 }
 
 #gallery07 .inner {
@@ -2575,15 +2600,15 @@ hr:before {
 		width: 5rem;
 	}
 	
-	#divider24:not(:first-child) {
+	#divider19:not(:first-child) {
 		margin-top: 0.625rem !important;
 	}
 	
-	#divider24:not(:last-child) {
+	#divider19:not(:last-child) {
 		margin-bottom: 0.625rem !important;
 	}
 	
-	#divider24:before {
+	#divider19:before {
 		width: 5rem;
 	}
 	
@@ -2604,11 +2629,11 @@ hr:before {
 	}
 	
 	#divider02:not(:first-child) {
-		margin-top: 0.625rem !important;
+		margin-top: 1.25rem !important;
 	}
 	
 	#divider02:not(:last-child) {
-		margin-bottom: 0.625rem !important;
+		margin-bottom: 1.25rem !important;
 	}
 	
 	#divider02:before {
@@ -2711,22 +2736,6 @@ hr:before {
 		width: 5rem;
 	}
 	
-	#divider22:not(:first-child) {
-		margin-top: 0rem !important;
-	}
-	
-	#divider22:not(:last-child) {
-		margin-bottom: 0rem !important;
-	}
-	
-	#divider19:not(:first-child) {
-		margin-top: 0rem !important;
-	}
-	
-	#divider19:not(:last-child) {
-		margin-bottom: 0rem !important;
-	}
-	
 	#divider16:not(:first-child) {
 		margin-top: 0.625rem !important;
 	}
@@ -2808,6 +2817,18 @@ hr:before {
 	}
 	
 	#divider26:before {
+		width: 5rem;
+	}
+	
+	#divider08:not(:first-child) {
+		margin-top: 0.625rem !important;
+	}
+	
+	#divider08:not(:last-child) {
+		margin-bottom: 0.625rem !important;
+	}
+	
+	#divider08:before {
 		width: 5rem;
 	}
 	
@@ -2948,11 +2969,11 @@ hr:before {
 	}
 	
 	#gallery07:not(:first-child) {
-		margin-top: 2.625rem !important;
+		margin-top: 0rem !important;
 	}
 	
 	#gallery07:not(:last-child) {
-		margin-bottom: 2.625rem !important;
+		margin-bottom: 0rem !important;
 	}
 }
 
